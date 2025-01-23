@@ -46,7 +46,7 @@ public class Zodiac {
                     String fact = getZodiacFact(zodiacSign); // Pobranie ciekawostki o znaku zodiaku
                     System.out.println("Ciekawostka: " + fact);
                 }
-                default -> System.out.println("Niepoprawna opcja."); // Obsługa niepoprawnego wyboru
+                default -> System.out.println("Niepoprawna opcja."); // Niepoprawny wybór
             }
 
             System.out.println("Czy chcesz zagrać ponownie? (tak/nie)"); // Pytanie o powtórzenie gry
