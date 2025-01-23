@@ -11,7 +11,7 @@ public class Zodiac {
         boolean repeat; // Typ danych kontrolujący powtarzanie gry
 
         do {
-            System.out.println("Autor programu: Szymon Zakrzewicz")
+            System.out.println("Autor programu: Szymon Zakrzewicz");
             System.out.println("Witaj w grze Zodiak! Podaj swoją datę urodzenia (w formacie RRRR-MM-DD):");
 
             LocalDate birthDate = null; // Zmienna do przechowywania daty urodzenia
