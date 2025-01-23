@@ -11,6 +11,7 @@ public class Zodiac {
         boolean repeat; // Typ danych kontrolujący powtarzanie gry
 
         do {
+            System.out.println("Autor programu: Szymon Zakrzewicz")
             System.out.println("Witaj w grze Zodiak! Podaj swoją datę urodzenia (w formacie RRRR-MM-DD):");
 
             LocalDate birthDate = null; // Zmienna do przechowywania daty urodzenia
@@ -28,7 +29,7 @@ public class Zodiac {
 
             System.out.println("Wybierz opcję:"); // Wyświetlenie dostępnych opcji
             System.out.println("1. Wylosuj wróżbę");
-            System.out.println("2. Otrzymaj imię wróżbity");
+            System.out.println("2. Otrzymaj imię twojego wróżbity");
             System.out.println("3. Poznaj ciekawostkę o swoim znaku zodiaku");
             int choice = scanner.nextInt(); // Odczyt wybranej opcji
             scanner.nextLine();
@@ -125,7 +126,7 @@ public class Zodiac {
 
     private static String generateProphetName() { // Funkcja do generowania losowego imienia wróżbity
         List<String> names = new ArrayList<>(Arrays.asList( // Lista możliwych imion wróżbitów
-                "Merlin", "Cassandra", "Sybil", "Nostradamus", "Pythia"
+                "Szymon","Krystian","Robert","Nostradamus","Wojtek","Urszula"
         ));
 
         Random random = new Random(); // Obiekt Random do losowania
